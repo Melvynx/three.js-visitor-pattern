@@ -1,50 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-	<title>three.ts-template</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no,shrink-to-fit=no">
-	<meta name="description" content="ThreeJS, TypeScript, GLSL, & Webpack boilerplate for quick prototyping.">
-	<meta name="author" content="Marquizzo">
-	<style type="text/css">
-		body, html{
-			margin: 0px;
-			padding: 0px;
-			overflow: hidden;
-			background: #000;
-			height: 100%;
-			font-family: Arial, Helvetica, sans-serif;
-			color: #fff;
-			line-height: 1;
-		}
-		main {
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-		}
-		header {
-			position: absolute;
-			top: 0;
-			left: 0;
-		}
-		h1, p {
-			margin: 0;
-		}
-	</style>
-</head>
-<body>
+  <head>
+    <title>three.ts-template</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no,shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="ThreeJS, TypeScript, GLSL, & Webpack boilerplate for quick prototyping."
+    />
+    <meta name="author" content="Marquizzo" />
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
-<main id="pageMain">
-<canvas id="webgl-canvas"></canvas>
-<header>
-	<h1>three.ts-template</h1>
-	<p>ThreeJS, TypeScript, GLSL & Webpack boilerplate</p>
-</header>
-</main>
+      html,
+      body {
+        overflow: hidden;
+      }
 
-<!-- JS Bundle --> 
-<script src="js/main.js"></script>
-
-</body>
+      .webgl {
+        position: fixed;
+        inset: 0;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="webgl"></canvas>
+    <script src="js/main.js"></script>
+  </body>
 </html>
